@@ -34,6 +34,8 @@ apps=(
   imageoptim
   screenhero
   gas-mask
+  robo-3t
+  xmind
 )
 
 # Default is: /Users/$user/Applications

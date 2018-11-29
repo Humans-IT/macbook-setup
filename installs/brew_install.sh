@@ -24,6 +24,7 @@ brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 
 binaries=(
+  curl
   git
   git-flow
   node

@@ -42,4 +42,4 @@ for var in "${apps[@]}"
     brew cask install "${var}"
   done
 
-brew cask cleanup
+brew cleanup

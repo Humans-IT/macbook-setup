@@ -28,7 +28,10 @@ binaries=(
   git-flow
   node
   nvm
+  npm
   yarn
+  gulp
+  grunt
   jenv
   sbt
   htop

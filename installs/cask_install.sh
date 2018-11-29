@@ -32,6 +32,8 @@ apps=(
   keka
   tunnelblick
   imageoptim
+  screenhero
+  gas-mask
 )
 
 # Default is: /Users/$user/Applications

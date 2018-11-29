@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+# enable alias to besudoed
+alias sudo='sudo '
+
+# alias for custom commands
+alias ll='ls -alrt -G'
+# ls directory
+alias lsd='ls -laF -G | grep "^d"'
+# recursive directory list
+alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'''
+
+
+alias top='htop -o cpu'
+alias dlo='open ~/Downloads/'
+
+# lock screen
+alias lo="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+#reload shell settings
+alias reload="exec $SHELL -l"
+
+alias json='python -mjson.tool'
+
+# paste bin copy 
+alias pbc='pbcopy'
+
+alias k9='kill -9'
+
+alias fuck="sudo !!" 
+
+alias c='clear'
+
+alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'

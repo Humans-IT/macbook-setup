@@ -19,6 +19,9 @@ brew install findutils
 # Install Bash 4
 brew install bash
 
+brew tap caskroom/versions
+brew cask install java8
+
 binaries=(
   curl
   git

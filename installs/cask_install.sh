@@ -36,6 +36,7 @@ apps=(
   gas-mask
   robo-3t
   xmind
+  sublime-text
 )
 
 # Default is: /Users/$user/Applications

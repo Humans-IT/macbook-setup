@@ -19,10 +19,6 @@ brew install findutils
 # Install Bash 4
 brew install bash
 
-# Install more recent versions of some OS X tools
-brew tap homebrew/dupes
-brew install homebrew/dupes/grep
-
 binaries=(
   curl
   git
@@ -31,7 +27,6 @@ binaries=(
   nvm
   npm
   yarn
-  gulp
   grunt
   jenv
   sbt
@@ -64,7 +59,6 @@ binaries=(
   rpm
   cowsay
   sl
-  sublime-text3
 )
 
 echo "installing binaries..."

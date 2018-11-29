@@ -34,9 +34,10 @@ binaries=(
   grunt
   jenv
   sbt
+  scala
   htop
   bash
-  bash-completion
+  bash-completion2
   readline
   python
   cmake
@@ -62,6 +63,7 @@ binaries=(
   rpm
   cowsay
   sl
+  sublime-text3
 )
 
 echo "installing binaries..."

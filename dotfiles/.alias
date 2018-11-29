@@ -32,3 +32,7 @@ alias fuck="sudo !!"
 alias c='clear'
 
 alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
+
+alias upd='brew update && brew upgrade && brew cleanup && brew doctor && aliBuild clean && brew doctor'
+
+alias myip='curl ip.appspot.com'

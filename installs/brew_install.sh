@@ -29,6 +29,7 @@ binaries=(
   node
   nvm
   yarn
+  jenv
   sbt
   htop
   bash
@@ -56,6 +57,8 @@ binaries=(
   wget
   jq
   rpm
+  cowsay
+  sl
 )
 
 echo "installing binaries..."

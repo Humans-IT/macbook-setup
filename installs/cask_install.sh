@@ -1,12 +1,10 @@
 #!/bin/bash
 
-brew install caskroom/cask/brew-cask
 brew tap caskroom/fonts
 brew tap colindean/fonts-nonfree
 
 # Apps
 apps=(
-  java8
   caffeine
   cheatsheet
   karabiner
@@ -19,7 +17,6 @@ apps=(
   font-oswald
   google-chrome
   google-hangouts
-  gpgtools
   iterm2 
   meld
   skype
@@ -32,7 +29,6 @@ apps=(
   keka
   tunnelblick
   imageoptim
-  screenhero
   gas-mask
   robo-3t
   xmind

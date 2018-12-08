@@ -33,6 +33,7 @@ apps=(
   robo-3t
   xmind
   sublime-text
+  google-backup-and-sync
 )
 
 # Default is: /Users/$user/Applications

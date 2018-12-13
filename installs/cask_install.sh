@@ -16,7 +16,6 @@ apps=(
   font-open-sans
   font-oswald
   google-chrome
-  google-hangouts
   iterm2 
   meld
   skype
@@ -34,6 +33,7 @@ apps=(
   xmind
   sublime-text
   google-backup-and-sync
+  fontbase
 )
 
 # Default is: /Users/$user/Applications

@@ -62,6 +62,7 @@ binaries=(
   rpm
   cowsay
   sl
+  inetutils
 )
 
 echo "installing binaries..."

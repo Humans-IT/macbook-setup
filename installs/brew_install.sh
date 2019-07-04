@@ -63,6 +63,7 @@ binaries=(
   cowsay
   sl
   inetutils
+  p7zip
 )
 
 echo "installing binaries..."

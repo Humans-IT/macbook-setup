@@ -64,10 +64,11 @@ binaries=(
   sl
   inetutils
   p7zip
+  direnv
 )
 
 echo "installing binaries..."
 brew install "${binaries[@]}"
 
 brew cleanup
-
+echo 'eval $(direnv hook bash)' >> ~/.bashrc

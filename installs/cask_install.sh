@@ -34,6 +34,7 @@ apps=(
   sublime-text
   google-backup-and-sync
   fontbase
+  loom
 )
 
 # Default is: /Users/$user/Applications
